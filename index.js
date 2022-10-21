@@ -1,7 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const route = express();
-const rand = '1071049710297110495051'
 const port = 2772;
 const bodyParser = require('body-parser');
 route.use(bodyParser.urlencoded({ extended: true }))
